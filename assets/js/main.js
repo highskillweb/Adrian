@@ -555,6 +555,8 @@ $(document).ready(function($){
 			styles : mapStyle
 		});
 
+		map.prototype.boolToArray = function () {}
+
 		map.addMarker({
 			lat : 47.411631,
 			lng : 28.369885,
